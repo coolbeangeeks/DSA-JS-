@@ -8,8 +8,5 @@ let i=fib.length;
 while(i<n){
     fib[i]=fib[i-1]+fib[i-2];
     i++;
-
-
-
 }
 console.log(fib);

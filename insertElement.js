@@ -17,3 +17,12 @@ for(let i=0;i<n+1;i++){
 console.log(c);
 
 // without using extra array.
+let e = [1, 2, 3, 4, 5];
+let f = 6;
+const posi = 4;
+let no = a.length;
+for (let i = no; i > posi; i--) {
+    e[i] = e[i - 1];
+}
+e[pos] = f;
+console.log(e);
